@@ -164,7 +164,6 @@ div.video > iframe {
     width: 90%;
     height: 90%;
     
-
 }
 
 aside {
@@ -174,7 +173,6 @@ aside {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.295);
     padding: 10px 80px 10px 10px;
     margin: auto;
-    
     
 }
 
@@ -194,6 +192,7 @@ aside  h2 {
     list-style-position: inside;
     min-width: 400px;   
     margin-right: 10px;
+    overflow: hidden;
 }
 
 footer{
