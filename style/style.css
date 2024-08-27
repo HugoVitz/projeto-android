@@ -33,32 +33,30 @@ header {
     height: 130px;
     color: rgb(255, 255, 255);
     box-shadow: 2px 1px 3px black;
-    padding: 18px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 header h1 {
     font-family: var(--fonte-destaque);
-    font-size: 3em;
+    font-size: 3.2em;
     font-weight: bolder;
     margin-bottom: 20px;
     text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.808);
 }
 
 header p {
-    font-size: 18px;
-    max-width: 450px;
+    font-size: 20px;
+    max-width: 500px;
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
     text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.808);
     margin-bottom: 20px;
-    
-    
 }
 
 nav {
-    padding: 20px 10px 10px 10px ;
-    background-color: #09301A;
+    padding: 70px 10px 10px 10px ;
+    background-image:linear-gradient(to top,#051a0e, #09301a )  ;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.397);
 }
 
@@ -69,7 +67,7 @@ nav > a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
 
 nav > a:hover{
