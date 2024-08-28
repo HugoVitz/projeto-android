@@ -143,9 +143,6 @@ a.externo:after{
 article{
     padding: 0px 20px 20px 20px;
 }
-article > ul > li{
-    width: 100%;
-}
 
 div.video{
     background-color: #061f10;
@@ -169,27 +166,30 @@ aside {
     border-radius: 10px;
     font-weight: 700;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.295);
-    padding: 10px 20px 10px 10px;
+    padding: 10px 20px 10px 20px;
     margin: auto;
     overflow: hidden;
     display: block;
- }
+}
 
 aside  h2 {
     font-family: var(--fonte-idroid);
     color: 09301A;
     background-image: linear-gradient(to right,#9dccb0c7,transparent);
-    margin: -10px -10px 0px -10px;
+    margin: -10px -10px 0px -20px;
     border-radius: 10px 10px 0px 0px ;
     padding: 8px;
 }
-
-.lista-dois-colunas {
+aside ul.lista-dois-colunas{
     column-count: 2;
-    column-gap: 120px; 
-   list-style-type: '\2714\00A0\00A0';
-   list-style-position: inside;
-   display: block;
+    column-gap: 70px; 
+}
+.lista-dois-colunas>li {
+    
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    display: block;
+    
 }
 
 footer{
@@ -206,5 +206,3 @@ footer p {
     font-style: oblique;
     padding: 0px;
 }
-
- 
