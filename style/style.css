@@ -89,7 +89,7 @@ main {
 }
 
 main h1 {
-    font-family: var(--fonte-idroid);
+    font-family: idroid;
     color: #09301A;
     padding-top: 0px;
     font-size: 1.8em;
@@ -183,10 +183,10 @@ aside  h2 {
 aside ul.lista-dois-colunas{
     column-count: 2;
     column-gap: 70px; 
+    
 }
 .lista-dois-colunas>li {
-    
-    list-style-type: '\2714\00A0\00A0';
+    list-style-type:'\2714\00A0\00A0';
     list-style-position: inside;
     display: block;
     padding-bottom: 10px;
